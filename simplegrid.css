@@ -1,0 +1,168 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.row, .column {
+    box-sizing: border-box;
+}
+
+.row::before,
+.row::after {
+    content: " ";
+    display: table;
+}
+
+.row::after {
+    clear: both;
+}
+
+.column {
+    position: relative;
+    float: left;
+}
+
+.column + .column {
+    margin-left: 1.6vw;
+}
+
+.column-1 {
+    width: 6.866vw;
+}
+
+.column-2 {
+    width: 15.333vw;
+}
+
+.column-3 {
+    width: 23.8vw;
+}
+
+.column-4 {
+    width: 32.266vw;
+}
+
+.column-5 {
+    width: 40.733vw;
+}
+
+.column-6 {
+    width: 49.2vw;
+}
+
+.column-7 {
+    width: 57.666vw;
+}
+
+.column-8 {
+    width: 66.133vw;
+}
+
+.column-9 {
+    width: 74.6vw;
+}
+
+.column-10 {
+    width: 83.066vw;
+}
+
+.column-11 {
+    width: 91.533vw;
+}
+
+.column-12 {
+    width: 100vw;
+}
+
+.column.push-1:not(:first-of-type) {
+    margin-left: calc(1 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-2:not(:first-of-type) {
+    margin-left: calc(2 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-3:not(:first-of-type) {
+    margin-left: calc(3 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-4:not(:first-of-type) {
+    margin-left: calc(4 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-5:not(:first-of-type) {
+    margin-left: calc(5 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-6:not(:first-of-type) {
+    margin-left: calc(6 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-7:not(:first-of-type) {
+    margin-left: calc(7 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-8:not(:first-of-type) {
+    margin-left: calc(8 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-9:not(:first-of-type) {
+    margin-left: calc(9 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-10:not(:first-of-type) {
+    margin-left: calc(10 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-11:not(:first-of-type) {
+    margin-left: calc(11 * (1.6vw + 6.866vw) + 1.6vw);
+}
+
+.column.push-1:first-of-type {
+    margin-left: calc(1 * (1.6vw + 6.866vw));
+}
+
+.column.push-2:first-of-type {
+    margin-left: calc(2 * (1.6vw + 6.866vw));
+}
+
+.column.push-3:first-of-type {
+    margin-left: calc(3 * (1.6vw + 6.866vw));
+}
+
+.column.push-4:first-of-type {
+    margin-left: calc(4 * (1.6vw + 6.866vw));
+}
+
+.column.push-5:first-of-type {
+    margin-left: calc(5 * (1.6vw + 6.866vw));
+}
+
+.column.push-6:first-of-type {
+    margin-left: calc(6 * (1.6vw + 6.866vw));
+}
+
+.column.push-7:first-of-type {
+    margin-left: calc(7 * (1.6vw + 6.866vw));
+}
+
+.column.push-8:first-of-type {
+    margin-left: calc(8 * (1.6vw + 6.866vw));
+}
+
+.column.push-9:first-of-type {
+    margin-left: calc(9 * (1.6vw + 6.866vw));
+}
+
+.column.push-10:first-of-type {
+    margin-left: calc(10 * (1.6vw + 6.866vw));
+}
+
+.column.push-11:first-of-type {
+    margin-left: calc(11 * (1.6vw + 6.866vw));
+}
+    
